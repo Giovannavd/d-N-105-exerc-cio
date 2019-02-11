@@ -1,9 +1,101 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+/* Header */
 header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("banner.png");
+    height: 600px;
 }
 
 .cor-verde{
     color: green
 }
+
+.mao{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.texto{
+    color: white;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+main div{
+    padding: 40px;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    font-weight: bold;
+}
+
+.imgm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Section (contato) */
+.contato{
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+
+.divc{
+    display: flex;
+    padding: 20px;
+    /* flex-direction: column; */
+    align-items: left;
+    justify-content: end;
+}
+
+
+
+
+/* Section feedback */
+.feedback{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.imgd{
+    display: flex;
+    align-items: center;
+}
+
+/* Footer */
+footer{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:gray;
+    padding: 30px;
+}
+
