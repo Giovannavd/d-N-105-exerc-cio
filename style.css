@@ -59,12 +59,8 @@ header p{
     word-wrap: normal;
     width: 75%;
     font-size: 16pt;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Roboto";
     color: white;
-}
-
-.titulo > p:nth-child(2){
-    font-weight: bold;
 }
 
 .titulo{
